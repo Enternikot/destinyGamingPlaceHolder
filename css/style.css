@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 10px;
+  background-color: #292C31;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.overlay .box {
+  margin: 0 3.2rem;
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.overlay .box img {
+  height: 256px;
+  width: auto;
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.overlay .box h1 {
+  padding: 1.5rem 0;
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.overlay .box span {
+  font-size: 1.6rem;
+  color: #1ec14c;
+  font-weight: bold;
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+/*# sourceMappingURL=style.css.map */
