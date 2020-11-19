@@ -44,7 +44,7 @@ body {
 }
 
 .overlay .box {
-  margin: 0 3.2rem;
+  margin: 0 4.6rem;
   width: 100%;
   max-width: 600px;
   height: 500px;
@@ -64,7 +64,7 @@ body {
 }
 
 .overlay .box img {
-  height: 256px;
+  height: 230px;
   width: auto;
   -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
           filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
