@@ -64,7 +64,7 @@ body {
 }
 
 .overlay .box img {
-  height: 230px;
+  height: 430px;
   width: auto;
   -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
           filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
@@ -83,7 +83,7 @@ body {
 
 .overlay .box span {
   font-size: 1.6rem;
-  color: #1ec14c;
+  color: #f146e0;
   font-weight: bold;
   -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
           filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
